@@ -89,7 +89,7 @@ public partial class AccountSwitchTechnicalRejectionV02 {
 [System.Diagnostics.DebuggerStepThroughAttribute()]
 [System.ComponentModel.DesignerCategoryAttribute("code")]
 [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:iso:std:iso:20022:tech:xsd:acmt.037.001.02")]
-public partial class MessageIdentification1 {
+public partial class MessageIdentification3{
     
     private string idField;
     

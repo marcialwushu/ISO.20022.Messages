@@ -8,13 +8,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="AUTH\NovaPasta\**" />
+    <EmbeddedResource Remove="AUTH\NovaPasta\**" />
+    <None Remove="AUTH\NovaPasta\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="ACMT\ACMT.Messages\" />
     <Folder Include="ADMI\ADMI.Messages\" />
     <Folder Include="CAAA\" />
     <Folder Include="CAIN\" />
     <Folder Include="CATP\" />
     <Folder Include="CAAM\" />
-    <Folder Include="AUTH\" />
     <Folder Include="CAAD\" />
     <Folder Include="CAMT\" />
     <Folder Include="COLR\" />

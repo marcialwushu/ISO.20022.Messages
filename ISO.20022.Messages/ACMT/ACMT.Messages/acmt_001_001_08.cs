@@ -1216,7 +1216,7 @@ public partial class AccountSchemeName1Choice {
     
     /// <remarks/>
     [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public ItemChoiceType2 ItemElementName {
+    public ItemChoiceType4 ItemElementName {
         get {
             return this.itemElementNameField;
         }
@@ -8886,7 +8886,7 @@ public partial class DateAndDateTime1Choice {
     
     /// <remarks/>
     [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public ItemChoiceType4 ItemElementName {
+    public ItemChoiceType8 ItemElementName {
         get {
             return this.itemElementNameField;
         }

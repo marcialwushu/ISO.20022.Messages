@@ -9376,11 +9376,11 @@ public enum BlockedReason2Code {
 }
 
 /// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:iso:std:iso:20022:tech:xsd:acmt.002.001.08")]
+//[System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0")]
+//[System.SerializableAttribute()]
+//[System.Diagnostics.DebuggerStepThroughAttribute()]
+//[System.ComponentModel.DesignerCategoryAttribute("code")]
+//[System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:iso:std:iso:20022:tech:xsd:acmt.002.001.08")]
 public partial class TransactionType5Choice {
     
     private object itemField;
@@ -9472,11 +9472,11 @@ public enum InvestmentFundTransactionType1Code {
 }
 
 /// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:iso:std:iso:20022:tech:xsd:acmt.002.001.08")]
+//[System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0")]
+//[System.SerializableAttribute()]
+//[System.Diagnostics.DebuggerStepThroughAttribute()]
+//[System.ComponentModel.DesignerCategoryAttribute("code")]
+//[System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:iso:std:iso:20022:tech:xsd:acmt.002.001.08")]
 public partial class BlockedStatusReason2 {
     
     private TransactionType5Choice txTpField;
