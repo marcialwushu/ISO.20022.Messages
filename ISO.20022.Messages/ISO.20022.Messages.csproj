@@ -14,7 +14,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="ACMT\ACMT.Messages\" />
     <Folder Include="ADMI\ADMI.Messages\" />
     <Folder Include="CAAA\" />
     <Folder Include="CAIN\" />
