@@ -31,7 +31,6 @@
     <Folder Include="CASP\" />
     <Folder Include="CASR\" />
     <Folder Include="CATM\" />
-    <Folder Include="HEAD\" />
     <Folder Include="TSMT\" />
     <Folder Include="TSIN\" />
     <Folder Include="TSRV\" />
