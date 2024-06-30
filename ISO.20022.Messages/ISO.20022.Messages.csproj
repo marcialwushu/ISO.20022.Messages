@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>ISO._20022.Messages</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="ACMT\ACMT.Messages\" />
+    <Folder Include="ADMI\ADMI.Messages\" />
+    <Folder Include="CAAA\" />
+    <Folder Include="CAIN\" />
+    <Folder Include="CATP\" />
+    <Folder Include="CAAM\" />
+    <Folder Include="AUTH\" />
+    <Folder Include="CAAD\" />
+    <Folder Include="CAMT\" />
+    <Folder Include="COLR\" />
+    <Folder Include="CAFC\" />
+    <Folder Include="CAFM\" />
+    <Folder Include="FXTR\" />
+    <Folder Include="CAFR\" />
+    <Folder Include="CANM\" />
+    <Folder Include="CASP\" />
+    <Folder Include="CASR\" />
+    <Folder Include="CATM\" />
+    <Folder Include="HEAD\" />
+    <Folder Include="TSMT\" />
+    <Folder Include="TSIN\" />
+    <Folder Include="TSRV\" />
+    <Folder Include="SETR\" />
+    <Folder Include="SESE\" />
+    <Folder Include="SEMT\" />
+    <Folder Include="SEEV\" />
+    <Folder Include="SECL\" />
+    <Folder Include="REDA\" />
+    <Folder Include="REMT\" />
+    <Folder Include="PAIN\" />
+    <Folder Include="PACS\" />
+  </ItemGroup>
+
+</Project>
