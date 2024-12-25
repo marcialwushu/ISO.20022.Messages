@@ -77,18 +77,18 @@ classDiagram
     class Document {
         +FIToFICstmrCdtTrf : FIToFICustomerCreditTransferV09
     }
-
+    
     class FIToFICustomerCreditTransferV09 {
         +GrpHdr : GroupHeader93
         +CdtTrfTxInf : CreditTransferTransaction43[]
         +SplmtryData : SupplementaryData1[]
     }
-
+    
     class GroupHeader93 {
         +MsgId : string
         +CreDtTm : DateTime
     }
-
+    
     class CreditTransferTransaction43 {
         +PmtId : PaymentIdentification4
         +Amt : ActiveCurrencyAndAmount
@@ -96,16 +96,62 @@ classDiagram
         +CdtrAcct : CashAccount24
         +RmtInf : RemittanceInformation11
     }
-
+    
     class SupplementaryData1 {
         +PlcAndNm : string
         +Envlp : SupplementaryDataEnvelope1
     }
-
+    
+    class SupplementaryDataEnvelope1 {
+        +Any : string
+    }
+    
+    class PaymentIdentification4 {
+        +InstrId : string
+        +EndToEndId : string
+    }
+    
+    class ActiveCurrencyAndAmount {
+        +Ccy : string
+        +Value : decimal
+    }
+    
+    class PartyIdentification43 {
+        +Nm : string
+        +PstlAdr : PostalAddress6
+    }
+    
+    class CashAccount24 {
+        +Id : AccountIdentification4Choice
+    }
+    
+    class RemittanceInformation11 {
+        +Ustrd : string[]
+    }
+    
+    class PostalAddress6 {
+        +StrtNm : string
+        +PstCd : string
+        +TwnNm : string
+        +Ctry : string
+    }
+    
+    class AccountIdentification4Choice {
+        +IBAN : string
+    }
+    
     Document --> FIToFICustomerCreditTransferV09
     FIToFICustomerCreditTransferV09 --> GroupHeader93
     FIToFICustomerCreditTransferV09 --> CreditTransferTransaction43
     FIToFICustomerCreditTransferV09 --> SupplementaryData1
+    SupplementaryData1 --> SupplementaryDataEnvelope1
+    CreditTransferTransaction43 --> PaymentIdentification4
+    CreditTransferTransaction43 --> ActiveCurrencyAndAmount
+    CreditTransferTransaction43 --> PartyIdentification43
+    CreditTransferTransaction43 --> CashAccount24
+    CreditTransferTransaction43 --> RemittanceInformation11
+    PartyIdentification43 --> PostalAddress6
+    CashAccount24 --> AccountIdentification4Choice
 ```
 
 ---
